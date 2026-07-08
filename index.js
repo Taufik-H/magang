@@ -35,3 +35,10 @@ console.log("Penjumlahan:", hasilPenjumlahan);
 console.log("Pembagian:", hasilPembagian);
 console.log("Pengurangan:", hasilPengurangan);
 console.log("Perkalian:", hasilPerkalian);
+
+setTimeout(() => {
+  console.log("Cuci baju"); // proses asynchronous
+}, 1000);
+console.log("Menyapu");
+console.log("Mengepel");
+console.log("Memasak");
